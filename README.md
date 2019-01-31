@@ -2,6 +2,8 @@
 
 My projects:  A Remote Control using BootStrap 4
 
+<img src="rc_bootstrap.JPG" width="150">
+
 The project is built with HTML/CSS, Bootstrap and JQuery.
 My mentor needed a simple remote control to watch italian tv online. 
 He assigned me this task to practice and having fun at the same time.
@@ -16,4 +18,4 @@ Run Xampp apache server and target with your browser: localhost/test/remote cont
 click on the index.html page and then click on the engine button on the bottom, select Italy and click on the button  "load configuration"
 Once the project will be finished it will be possibile to avoid xampp and upload an external api. 
 
-<img src="rc_bootstrap.JPG" width="100">
+
