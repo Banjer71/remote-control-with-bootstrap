@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Remote Control with Bootstap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="remote_boot.js"></script>
+    
+        
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container top">
+        <div class="container power-off">
+                <i class="fas fa-power-off"></i>
+        </div>
+
+        <div class="container remote">
+                <div class="row">
+                        <div class="col number">1</div>
+                        <div class="col number">2</div>  
+                        <div class="col number">3</div>
+                 </div>
+                <div class="row">
+                        <div class="col number">4</div>
+                        <div class="col number">5</div>  
+                        <div class="col number">6</div>
+                </div>
+                <div class="row">
+                        <div class="col number">7</div>
+                        <div class="col number">8</div>  
+                        <div class="col number">9</div>
+                </div>   
+        </div> 
+        <div class="container prog">
+                <div class="row">
+                    <div class="col"><i class="fas fa-arrow-circle-up"></i></i></div>
+                    <div class="col"><i class="fas fa-arrow-circle-down"></i></div>
+                </div>  
+            </div>
+        <div class="container display">
+                    <div class="video-number">
+                        
+                    </div>
+        </div>
+
+        
+
+        <div class="container load">
+            <div class="row">
+                <div class="col prova"><i class="fas fa-cog"></i></div>
+                <div class="nascondi" style="display: none;">
+                        <select id="optionSelect">
+                          <option value="http://localhost/test/remote-control/italianChannel.json">Italy</option>
+                          <option value="http://localhost/test/remote-control/brazilChannel.json">Brazil</option>
+                              </select>
+                        <input id="loadConf" type="button" value="Load Configuration">
+                      </div>
+            </div>
+                
+        </div>
+                    
+       
+       
+    </div>                 
+
+        
+
+
+
+
+
+
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="remote_boot.js"></script> -->
+</body>
+</html>

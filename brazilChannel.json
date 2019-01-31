@@ -1,0 +1,42 @@
+{
+  "1" : {
+    "canale": "Rai Uno Brazil",
+    "logo": "..img/logo.png",
+    "url" : "https://www.davidenaccarati.it"
+  },
+  "2" : {
+    "canale": 0,
+    "logo": 0
+    
+  },
+  "3" : {
+    "canale": "Rai Tre Brazil",
+    "logo": "..img/logo.png",
+    "url" : "https://www.davidenaccarati.it"
+  },
+  "5" : {
+    "canale": "Canale 5 Brazil",
+    "logo": "..img/logo.png",
+    "url" : "https://www.davidenaccarati.it"
+  },
+  "4" : {
+    "canale": 0,
+    "logo": 0,
+    "url" : 0
+  },
+  "6" : {
+    "canale": 0,
+    "logo": 0,
+    "url" : 0
+  },
+  "7" : {
+    "canale": 0,
+    "logo": 0,
+    "url" : 0
+  },
+  "8" : {
+    "canale": 0,
+    "logo": 0,
+    "url" : 0
+  }
+}

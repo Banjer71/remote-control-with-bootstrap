@@ -1,0 +1,42 @@
+{
+  "1" : {
+    "canale": "Rai Uno",
+    "logo": "..img/logo.png",
+    "url" : "https://www.raiplay.it/dirette/rai1"
+  },
+  "2" : {
+    "canale": "Rai Due",
+    "logo": "..img/logo.png",
+    "url" : "https://www.raiplay.it/dirette/rai2"
+  },
+  "3" : {
+    "canale": "Rai Tre",
+    "logo": "..img/logo.png",
+    "url" : "https://www.raiplay.it/dirette/rai3"
+  },
+  "5" : {
+    "canale": "Canale 5",
+    "logo": "..img/logo.png",
+    "url" : "https://www.mediasetplay.mediaset.it/diretta/canale5_cC5"
+  },
+  "4" : {
+    "canale": "Rete 4",
+    "logo": "..img/logo.png",
+    "url" : "https://www.mediasetplay.mediaset.it/diretta/rete4_cR4"
+  },
+  "6" : {
+    "canale": "Italia Uno",
+    "logo": "..img/logo.png",
+    "url" : "https://www.mediasetplay.mediaset.it/diretta/italia1_cI1"
+  },
+  "7" : {
+    "canale": "La7",
+    "logo": "..img/logo.png",
+    "url" : "http://www.la7.it/dirette-tv"
+  },
+  "8" : {
+    "canale": "La7 Gold",
+    "logo": "..img/logo.png",
+    "url" : "http://www.la7.it/dirette-tv"
+  }
+}
